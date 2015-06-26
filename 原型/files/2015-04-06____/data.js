@@ -1,0 +1,73 @@
+﻿$axure.loadCurrentPage({
+  "url":"2015-04-06____.html",
+  "generationDate":new Date(1428320973515.14),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"41d60780cd7b43aab4cd47f727cb5642",
+    "type":"Axure:Page",
+    "name":"2015-04-06修改说明",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"776961a93f21495889a9a8af5ae9d53f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "lineSpacing":"20px",
+            "location":{
+              "x":68,
+              "y":50},
+            "size":{
+              "width":462,
+              "height":140}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4011d36592d84eb19d56268bb5bfacd2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "lineSpacing":"20px",
+                "location":{
+                  "x":68,
+                  "y":50},
+                "size":{
+                  "width":462,
+                  "height":140}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "776961a93f21495889a9a8af5ae9d53f":{
+      "scriptId":"u0"},
+    "4011d36592d84eb19d56268bb5bfacd2":{
+      "scriptId":"u1"}}});

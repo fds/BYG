@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,figure{ margin:0; padding:0;}
+body,button,select,textarea{ font:12px/150% "宋体",Lucida Sans Unicode,Helvetica,sans-serif; color:#333333;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal;}
+code,kbd,pre,samp{ font-family:courier new,courier,monospace;}
+small{ font-size:12px;}
+ul,ol{ list-style:none;}
+a{ color:#232323; text-decoration:none; outline:none;}
+a:hover{ color:#8DC642; text-decoration:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend{ color:#000;}
+fieldset,img{ border:0;}
+button,input,select,textarea{ font-size:100%; outline:none;}
+table{ border-collapse:collapse; border-spacing:0;}
+h2,h3,h4{ font-size:14px;}
+h2,h3,h4,em{ font-family:"微软雅黑";}
+body{ background:#EDEDED;}
+
+.red{ margin:0 2px; color:#FF4343;}
+
+.site-nav{ height:30px; line-height:30px; background:#F5F5F5;}
+.site-nav a{ color:#8DC642;}
+.site-nav a:hover{ color:#666;}
+.site-nav .container{ position:relative;}
+.site-nav .notice b{ color:#FF4343;}
+.site-nav .icon_notice{ position:absolute; top:0; right:-15px; height:40px; padding:6px 5px; background:#FF4343; border-radius:0 0 15px 15px; font-size:18px; color:#FFF;}
+
+.header{ height:100px; background:#FFF;}
+.header .nav{ margin-top:30px;}
+.header .nav li a{ display:block; font-size:16px; color:#232323;}
+.header .nav li a:hover,.nav li.active a{ background-color:transparent; color:#8DC642;}
+
+.slider .quick-order{ position:relative;}
+.slider .quick-order form{ position:absolute; top:60px; left:0; width:400px; height:360px; padding:20px 30px 30px 30px; background:#F2F2F2; border-radius:4px; z-index:100;}
+.slider .quick-order h4{ line-height:80px; font-size:32px; text-align:center;}
+
+/**====== Swiper SLider ======*/
+.swiper-container{ height:480px; color:#fff; text-align:center; overflow:hidden; position:relative;}
+.swiper-slide{ background-repeat:no-repeat; background-position:center center;}
+.slidePagination{ position:absolute; left:50%; transform:translateX(-50%); -webkit-transform:translateX(-50%); bottom:10px; margin:0; z-index:20;}
+.swiper-pagination-switch { display:inline-block; width:20px; height:20px; border-radius:100%; background:#FFF; margin:0 10px; cursor:pointer;}
+.swiper-active-switch { background:#3898DB;}
+
+
+
+
+
+.path {
+    clear: both;
+    height: 120px;
+}
+.path ul {
+    margin: 0 auto;
+    width: 1200px;
+}
+.path li.on {
+    color: #e5454a;
+}
+.path li.first {
+    width: 154px;
+}
+.path li {
+    color: #666;
+    float: left;
+    font-size: 16px;
+    height: 120px;
+    position: relative;
+    width: 183px;
+}
+.path li.on .line {
+    background: none repeat scroll 0 0 #e5454a;
+}
+.path li.first .line {
+    border-radius: 3px 0 0 3px;
+}
+.path li .line {
+    background: none repeat scroll 0 0 #ccc;
+    display: block;
+    font-size: 0;
+    height: 4px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 44px;
+    width: 100%;
+}
+.path li.on .arr {
+    background-position: 0 -20px;
+}
+.path li .arr {
+    background: url("http://img.58cdn.com.cn/58daojia/sy/pc/suyun/ico-arr01.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 20px;
+}
+.path li.first.on .txt {
+    width: 154px;
+}
+.path li.on .txt {
+    color: #e5454a;
+}
+.path li.first .txt {
+    right: -66px;
+    width: 154px;
+}
+.path li .txt {
+    display: block;
+    position: relative;
+    right: -80px;
+    text-align: center;
+    top: 70px;
+    width: 183px;
+}
+.path li.last {
+    width: 314px;
+}
+.path li {
+    color: #666;
+    float: left;
+    font-size: 16px;
+    height: 120px;
+    position: relative;
+    width: 183px;
+}
+.path li.last .arr {
+    left: 183px;
+    right: auto;
+}
+.findmerchant{ background:#FFF; padding:20px;}
+.findmerchant .filter{}
+
+
+.footer{ background:#232323;}
+.footer .slogan{ padding:30px 0; border-bottom:1px solid #777; overflow:hidden;}
+.footer .slogan li{ padding-left:80px; position:relative; line-height:normal; font-family:"微软雅黑"; font-size:24px; color:#CCC;}
+.footer .slogan li span{ display:block; position:absolute; left:0; top:5px; width:58px; height:58px; background:url(../images/icno-sprite.png) no-repeat;}
+.footer .slogan li span.s1 { background-position:0 0px;}
+.footer .slogan li span.s2 { background-position:0 -60px;}
+.footer .slogan li span.s3 { background-position:0 -120px;}
+.footer .slogan li:last-child{ padding-left:0;}
+.footer .slogan li .info{ padding-left:10px; margin-top:10px; border-left:1px solid #757d85; line-height:26px; color:#ccc;}
+.footer .slogan li .info p{ font-size:18px;}
+.footer .copyright{ padding:35px 0; font-family:"微软雅黑"; font-size:14px; color:#ccc; text-align:center;}
+

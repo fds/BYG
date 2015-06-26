@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>搬运功</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/idangerous.swiper.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="site-nav">
+  <div class="container">
+    <div class="pull-left">你好，欢迎来到搬运功  请<a href="#">登录</a> <a href="#">免费注册</a></div>
+    <div class="pull-right">网站最近公告<b class="red">4</b>条</div>
+    <div class="icon_notice glyphicon glyphicon-volume-up"></div>
+  </div>
+</div>
+<div class="header">
+  <div class="container">
+    <nav class="row">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active">
+          <a href="#">首页</a>
+        </li>
+        <li>
+          <a href="#">承运商入住</a>
+        </li>
+        <li>
+          <a href="#">帮助中心</a>
+        </li>
+      </ul>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    </nav>
+  </div>
+</div>
+<div class="container">
+  <div class="path">
+    <ul>
+      <li class="first on">
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">填写基本信息</span>
+      </li>
+      <li>
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">完善确认订单</span>
+      </li>
+      <li>
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">预约成功</span>
+      </li>
+      <li>
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">完成派单</span>
+      </li>
+      <li>
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">上门服务</span>
+      </li>
+      <li class="last">
+        <span class="line"></span>
+        <span class="arr"></span>
+        <span class="txt">服务完成</span>
+      </li>
+    </ul>
+  </div>
+  <div class="findmerchant">
+    <div class="filter">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Name</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Send invitation</button>
+      </form>
+    </div>
+    <div class="list"></div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <ul class="slogan">
+      <li class="col-xs-12 col-md-3">
+        <span class="s1"></span>
+        100%<br>价格统一
+      </li>
+      <li class="col-xs-12 col-md-3">
+        <span class="s2"></span>
+        100%<br>价格统一
+      </li>
+      <li class="col-xs-12 col-md-3">
+        <span class="s3"></span>
+        100%<br>价格统一
+      </li>
+      <li class="col-xs-12 col-md-3">
+        <div class="info">
+          商务合作: 4008-909-009
+          <p>工作时间: 周一至周日7:00-20:00</p>
+        </div>
+      </li>
+    </ul>
+    <p class="copyright">© banyungong.com 2015 粤ICP备32015812号-1</p>
+  </div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/idangerous.swiper-2.1.min.js"></script>
+<script>
+$(function(){
+	var imgGallery = [
+		'images/home-slider_01.jpg',
+		'images/home-slider_01.jpg'
+	]
+	
+	for(var i=0;i<imgGallery.length;i++){
+		var html = '<div class="swiper-slide"></div>';
+		$('.swiper-container .swiper-wrapper').append(html);
+		$('.swiper-container .swiper-slide').each(function() {
+            $(this).css('background-image','url('+imgGallery[i]+')');
+        });
+	}
+	
+	var mySwiper = new Swiper('.swiper-container',{
+		pagination: '.slidePagination',
+		loop:true,
+		grabCursor: true,
+		paginationClickable: true,
+		autoplay:5000
+    });	
+})
+</script>
+</body>
+</html>
